@@ -1,12 +1,12 @@
 /*
-autor Jose Elkin Vargas
+autor Andres Polanco Ramirez
  */
 
 package operadores.aritmeticos;
 
 import java.util.Scanner;
 
-public class calculadora {
+public class calculadoraa {
     
     public static void main(String [] args){
         

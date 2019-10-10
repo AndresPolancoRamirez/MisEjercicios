@@ -1,11 +1,11 @@
 /*
-Autor Jose elkin Vargas
+Autor Andres Polanco Ramirez
  */
 package iterativas;
 
 import java.util.Scanner;
 
-public class Do_While {
+public class Do_Whilee {
 
  public static void main(String[] args) {
      
@@ -36,5 +36,4 @@ public class Do_While {
  }
  
  }
-
-}
+  }

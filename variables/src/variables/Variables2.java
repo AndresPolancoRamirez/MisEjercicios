@@ -1,5 +1,5 @@
 /*Trabajando con variables
-autor Jose Elkin Vargas Alarcon 
+autor Andres Polanco Ramirez
  */
 package variables;
 
@@ -7,7 +7,7 @@ package variables;
  *
  * @author FORMACIÓN
  */
-public class Variables {
+public class Variables2 {
 
     /**
      * @param args the command line arguments
@@ -22,21 +22,6 @@ public class Variables {
      int idficha;
      double PuntajeSisben;
      boolean NoActivo;
-     
-     /*Incializando las variables
-     MiNombre = "Elkin"
-     ResultadosPruebas = 250;
-     Estatura = 1.70;
-     Activo = true;
-     MiApellido = "Vargas";
-     idficha = 1082853;
-     PuntajeSisben = 7.33;
-     NoActivo = false;
-     
-     System.out.println("Nombres completos: " + MiNombre + MiApellido);
-     System.out.println("Estatura: " + Estatura);
-     System.out.println("Su puntaje: " + PuntajeSisben);
-     System.out.println("titulado: " +  idficha);*/
      
      /*Declarando otras variables*/
      String NombreProducto1="manzana";

@@ -1,5 +1,5 @@
 /*Hola Mundo
-autor Jose Elkin Vargas Alarcon/*
+autor Andres Polanco Ramirez
 
 */
 package holamundo;
@@ -8,7 +8,7 @@ package holamundo;
  *
  * @author FORMACIÓN
  */
-public class HolaMundo {
+public class HolaMundoo {
 
     
     public static void main(String[] args) {

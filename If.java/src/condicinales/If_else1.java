@@ -1,15 +1,12 @@
 /*
-Autor Jose Elkin Vargas
+ Autor Andres Polanco
  */
 package condicinales;
 
 import java.util.Scanner; 
-
-public class IfJava {
-
-
-
-    public static void main(String[] args) {
+public class If_else1 {
+   
+      public static void main(String[] args) {
         
        Scanner input= new Scanner(System.in);
        
@@ -29,8 +26,14 @@ public class IfJava {
       if(PassIngresada.equals(PassSystem)){
            System.out.println("bienvenido!!!!");
       }
+      
+      else{
+          System.out.println("contraseña incorrecta");
+      }
        
-       
-    } 
+        
+    }
     
 }
+
+
