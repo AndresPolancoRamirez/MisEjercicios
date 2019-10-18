@@ -4,9 +4,17 @@
         <servlet-name>cont_Ejercicio2</servlet-name>
         <servlet-class>Controlador.cont_Ejercicio2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Cont_Ejercicio2</servlet-name>
+        <servlet-class>Controlador.Cont_Ejercicio2</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>cont_Ejercicio2</servlet-name>
         <url-pattern>/cont_Ejercicio2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Cont_Ejercicio2</servlet-name>
+        <url-pattern>/Cont_Ejercicio2</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

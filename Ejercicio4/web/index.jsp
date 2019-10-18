@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 11/10/2019, 02:54:57 PM
+    Created on : 18/10/2019, 03:27:14 PM
     Author     : FORMACIÓN
 --%>
 
@@ -9,20 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title> Ejercicio 2</title>
+        <title>JSP Page</title>
     </head>
     <body>
-
-        <form action = "Cont_Ejercicio2" method = "post">
+         <form action = "Cont_Ejercicio4" method = "post">
             <center><h1>Ingresar el numero </h1>
-                <input type="number" name="numero">
-                <input type="submit" name="btn1">
-
-
-            
-            
-            
+                <input type="number" name="mes">
+                <input type="submit" name="btn1">                  
         </center>   
-        </form>
+        </form>         
     </body>
 </html>

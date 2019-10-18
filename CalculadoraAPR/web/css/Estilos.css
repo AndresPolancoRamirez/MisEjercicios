@@ -1,0 +1,24 @@
+body{ font: 15px Arial, Helvetica, sans-serief;
+      padding: 0;
+      margin: 0;
+      background-color: #BBBBBB;   
+}
+.boton1{height: 38px;
+        background: #22865C;
+        border: 0;
+        padding-left: 20px;
+        padding-right:20px;
+        color: #000000; 
+}
+input{width: 100%;
+      height: 35px;
+      border: 1px solid gray;
+      margin-bottom: 5px;
+}
+table{
+    background-color: #D78600;
+    padding: 50px;
+}
+.titulo{
+    background-color: #84E804;
+}
