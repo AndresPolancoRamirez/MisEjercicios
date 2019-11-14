@@ -45,7 +45,7 @@ public class Cont_Proveedores extends HttpServlet {
           Provee.setTelefono(request.getParameter("Tel"));
           Provee.setDireccion(request.getParameter("Direc"));
           Listar_Proveedores.add(Provee);
-          out.println("<center><h3>Se Registro el Estudiante: "+Provee.getNombre()+ "</h3></center>"); 
+          out.println("<center><h3>Se Registro el Proveedor: "+Provee.getNombre()+ "</h3></center>"); 
           
           }
              
