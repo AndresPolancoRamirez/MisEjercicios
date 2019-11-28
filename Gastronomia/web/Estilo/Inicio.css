@@ -1,0 +1,90 @@
+body{
+	background-color: #EFEFEF;
+}
+#titulo{
+	
+	background-color:  #05634C;
+	
+}
+#tab1{
+	width: 80%;
+	margin-left: 18%;
+	margin-top: -175px;
+	padding-bottom: 1.5%;
+}
+
+#tit1{
+	background-color:  #DBDBDB;
+	text-align: center;
+}
+#tit2{
+	background-color:  #FF9800;
+	text-align: center;
+}
+
+#latiz{
+	background-color: #FC7323;
+	width: 17%;
+	height: 720px;
+	float: left;
+}
+
+#log{
+	padding-left: 1%;
+	padding-top: 1%;
+	width: 225px;
+	height: 180px;
+	
+	
+}
+
+#centro{
+	background-color: #FC7323;
+	width: 30%;
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-right: 30%;
+	height: 510px;
+}
+
+.sombra{
+	text-shadow: 1px 1px #737373;
+}
+
+#tab2{
+
+	
+	padding-left: 20%;
+}
+
+#este{
+	text-align: center;
+}
+
+label{
+	font-weight: bold;
+}
+
+td{
+	padding-top: 10px;
+}
+
+#cent{
+	text-align: center;
+}
+
+#log1{
+	width: 250px;
+	height: 200px;
+	margin-left: 50px;
+}
+
+a{
+	color: #05634C;
+}
+
+button{
+
+	width: 80px;
+	height: 30px;
+}

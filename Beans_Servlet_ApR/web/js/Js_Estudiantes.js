@@ -38,3 +38,20 @@ function Listar_Estudiantes(){
       alert("Error : " + jqXHR.status);
   });
 }
+function Eliminar_Estudiantes(id){
+       var parametros = { 'Operacion':'Eliminar','id':id};
+    alert(id);
+    $.ajax({
+     type: "POST",
+     url: "Cont_Estudiantes",
+     data: parametros,
+     dataType: "text",
+     success: function (resp){
+       
+     $('#respuesta_servidor').html(resp);
+     Listar_Estudiantes();
+     }
+     }).fail (function (jqXHR, textStatus, errorThrown){
+     alert("Error : " + jqXHR.status);
+     });
+}

@@ -1,0 +1,115 @@
+body{
+	background-color: #EFEFEF;
+}
+#titulo{
+	background-color:  #05634C;
+}
+
+#log2{
+	padding-left: 1%;
+	padding-top: 1%;
+	width: 230px;
+	height: 185px;
+}
+
+#logus{
+	padding-left: 64%;
+	padding-top: 1%;
+	width: 10%;
+	height: 180px;
+}
+
+#tab1{
+	width: 58%;
+	margin-left: 17%;
+	margin-top: -175px;
+	padding-bottom: 1.5%;
+}
+
+#tab3{
+	width: 11%;
+	margin-left: 88%;
+	margin-top: -196px;
+	padding-bottom: 1.5%;
+}
+
+#tit3{
+	background-color:  #DBDBDB;
+	text-align: center;
+}
+#tit4{
+	background-color:  #FF9800;
+	text-align: center;
+}
+
+#tit1{
+	background-color:  #DBDBDB;
+	text-align: center;
+}
+#tit2{
+	background-color:  #FF9800;
+	text-align: center;
+}
+
+#latiz{
+	background-color: #FC7323;
+	width: 17%;
+	height: 720px;
+	float: left;
+}
+
+#tabiz{
+	margin-top: 5%;
+	margin-left: 8%;
+	border-spacing: 10px 60px;
+	font-size: 30px;
+}
+
+#centro{
+	background-color: #FC7323;
+	width: 58%;
+	margin-top: 7%;
+	margin-left: 30%;
+    padding: 3%;
+	height: 410px;
+}
+
+p{
+	font-size: 24px;
+}
+.sombra{
+	text-shadow: 1px 1px #737373;
+}
+
+#tab2{
+
+	
+	padding-left: 20%;
+}
+
+#este{
+	text-align: center;
+}
+
+label{
+	font-weight: bold;
+}
+
+td{
+	padding-top: 10px;
+}
+
+#cent{
+	text-align: center;
+}
+
+
+a{
+	color: #05634C;
+}
+
+button{
+
+	width: 80px;
+	height: 30px;
+}

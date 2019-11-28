@@ -1,9 +1,0 @@
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\bin\Debug\MiPrimerFormulario.exe.config
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\bin\Debug\MiPrimerFormulario.exe
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\bin\Debug\MiPrimerFormulario.pdb
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.csprojResolveAssemblyReference.cache
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.Form1.resources
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.Properties.Resources.resources
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.csproj.GenerateResource.Cache
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.exe
-C:\Users\FORMACIÓN\Documents\MisEjerciciosCshar\MiPrimerFormulario\MiPrimerFormulario\obj\Debug\MiPrimerFormulario.pdb

@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import Entidades.Estudiantes;
+import static java.lang.System.out;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -33,14 +34,20 @@ Estudiantes Est;
               out.println("<td>"+Listar_Estudiantes.get(i).getNota2()+"</td>");
               out.println("<td>"+Listar_Estudiantes.get(i).getNota3()+"</td>");
               out.println("<td>"+Listar_Estudiantes.get(i).getDefinitiva()+"</td>");
+              out.println("<td><a href ='javascript:Eliminar_Estudiantes("+i+"):'>Eliminar</a></td></tr>");
               
               
           }
           }
-            
-            
-            
-            if(request.getParameter("Operacion").equals("Registrar"))
+        if(request.getParameter("Operacion").equals("Eliminar"))
+            {
+             int id = Integer.parseInt(request.getParameter("id"));
+             Listar_Estudiantes.remove(id);
+             out.println("Estudiante Eliminado"); 
+             
+            } 
+          
+          if(request.getParameter("Operacion").equals("Registrar"))
           {
           Est =new Estudiantes();
           Est.setNombre(request.getParameter("Nomb"));
@@ -52,13 +59,13 @@ Estudiantes Est;
           out.println("<center><h3>Se Registro el Estudiante: "+Est.getNombre()+ "</h3></center>"); 
           
           }
-        
-    
-          
-          
-
         }
-    }
+          
+        } 
+           
+       
+    
+
     
 
 

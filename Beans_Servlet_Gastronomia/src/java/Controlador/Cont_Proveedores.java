@@ -8,11 +8,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import Entidades.Proveedores;
+import com.google.gson.Gson;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+
 public class Cont_Proveedores extends HttpServlet {
     Proveedores Provee;
     ArrayList<Proveedores> Listar_Proveedores= new ArrayList<Proveedores>();;
@@ -32,11 +34,19 @@ public class Cont_Proveedores extends HttpServlet {
               out.println("<td>"+Listar_Proveedores.get(i).getCedula()+"</td>");
               out.println("<td>"+Listar_Proveedores.get(i).getTelefono()+"</td>");
               out.println("<td>"+Listar_Proveedores.get(i).getDireccion()+"</td>");
+              out.println("<td><a href ='javascript:Eliminar_Prove("+i+");'>Eliminar</a></td></tr>");
               
               
               
           }
           }
+              if(request.getParameter("Operacion").equals("Eliminar"))
+            {
+             int id = Integer.parseInt(request.getParameter("id"));
+             Listar_Proveedores.remove(id);
+             out.println("Provedor Eliminado"); 
+             
+            }
           if(request.getParameter("Operacion").equals("Registrar"))
           {
           Provee =new Proveedores();
@@ -45,9 +55,15 @@ public class Cont_Proveedores extends HttpServlet {
           Provee.setTelefono(request.getParameter("Tel"));
           Provee.setDireccion(request.getParameter("Direc"));
           Listar_Proveedores.add(Provee);
-          out.println("<center><h3>Se Registro el Proveedor: "+Provee.getNombre()+ "</h3></center>"); 
+          out.println("<center><h3><font color: white>Se Registro el Proveedor:</font> "+Provee.getNombre()+ "</h3></center>"); 
           
           }
+            if(request.getParameter("Operacion").equals("Listar_Json"))
+         {
+             String json = new Gson().toJson(Listar_Proveedores);
+             out.println(json);
+             
+         } 
              
              
              

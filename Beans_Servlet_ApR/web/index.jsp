@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 8/11/2019, 11:48:21 AM
+    Created on : 15/11/2019, 09:42:37 AM
     Author     : FORMACIÓN
 --%>
 
@@ -12,7 +12,7 @@
         <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
         <title>JSP Page</title>
     </head>
-    <body>
+    <body background="FondoA.jpg">
         <form>
             <tr>
             <center>
@@ -43,6 +43,9 @@
                     <th>Nota2</th>
                     <th>Nota3</th>
                     <th>Definitiva</th>
+                    <th>Admin</th>
+
+                    
                 </tr>
             </thead>
             <tbody id="Listar_Estudiantes"> <!-- cuerpo de la tabla-->
